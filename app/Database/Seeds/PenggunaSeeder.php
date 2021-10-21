@@ -22,7 +22,7 @@ class PenggunaSeeder extends Seeder
         'password'  =>md5('maysitautamifadlina')
         ]
         ];
-    $p = new Pengguna();
-    $p->inserBatch();
+    $p = new Pengguna_12200426();
+    $p->inserBatch($data);
     }
 }
